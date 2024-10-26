@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/985cabe830.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Closed For Business</title>
+  </head>
+  <body class="h-screen">
+    <!-- Begin Header -->
+    <header
+      class="fixed top-0 left-0 right-0 py-4 font-bold shadow-md bg-slate-100"
+    >
+      <nav
+        class="flex flex-col items-center justify-between gap-5 px-2 mx-auto lg:gap-0 lg:flex-row md:px-0 md:max-w-screen-lg"
+      >
+        <a href="/"
+          ><img class="w-24 h-auto" src="/images/prep_logo.png" alt="Prep Logo"
+        /></a>
+        <ul class="flex flex-col items-center justify-center gap-4 lg:flex-row">
+          <li>
+            <a class="text-lg transition-colors hover:text-green-800" href="/"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors hover:text-green-800"
+              href="/services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors hover:text-green-800"
+              href="/contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <a
+          class="px-4 py-2 font-bold text-white transition-colors bg-green-600 rounded-md hover:bg-green-800"
+          href="/contact"
+          >Contact Us</a
+        >
+      </nav>
+    </header>
+    <!-- End Header -->
+    <main
+      class="flex h-screen flex-col items-center justify-center gap-5 text-center"
+    >
+      <div
+        class="flex flex-col lg:flex-row-reverse items-center justify-center"
+      >
+        <div class="w-full">
+          <img
+            class="w-72 h-auto"
+            src="/images/closed.png"
+            alt="Store is closed"
+          />
+        </div>
+        <div
+          class="flex w-full flex-col animate-pulse items-center justify-center gap-3"
+        >
+          <i class="fa-solid fa-triangle-exclamation fa-10x"></i>
+          <h1 class="text-5xl font-bold uppercase">Store Closed</h1>
+        </div>
+      </div>
+      <p class="font-bold text-3xl">
+        come back during working days [Monday - Friday] between 9AM until 5PM
+      </p>
+      <p class="font-bold text-gray-600 text-2xl">We'd be happy to have you.</p>
+    </main>
+  </body>
+</html>
