@@ -7,7 +7,7 @@ router.use(express.urlencoded({ extended: true }));
 // parsing application/json
 router.use(express.json());
 // Check Working Timeline Middleware
-//router.use(checkWorkingHours);
+router.use(checkWorkingHours);
 
 // Home route
 router.get("/", (req, res) => {
