@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/985cabe830.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="stylesheets
+    /style.css"
+    />
+    <title>Home</title>
+  </head>
+  <body class="h-screen">
+    <!-- Begin Header -->
+    <header
+      class="sticky top-0 left-0 right-0 py-4 font-bold shadow-md bg-slate-100"
+    >
+      <nav
+        class="flex flex-col items-center justify-between gap-5 px-2 mx-auto lg:gap-0 lg:flex-row md:px-0 md:max-w-screen-lg"
+      >
+        <a href="/"
+          ><img class="w-24 h-auto" src="/images/prep_logo.png" alt="Prep Logo"
+        /></a>
+        <ul class="flex flex-col items-center justify-center gap-4 lg:flex-row">
+          <li>
+            <a class="text-lg transition-colors hover:text-green-800" href="/"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors hover:text-green-800"
+              href="/services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors hover:text-green-800"
+              href="/contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <a
+          class="px-4 py-2 font-bold text-white transition-colors bg-green-600 rounded-md hover:bg-green-800"
+          href="/contact"
+          >Contact Us</a
+        >
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Begin Main  -->
+    <main class="flex flex-col items-center justify-start mt-24">
+      <!-- Begin Hero Section -->
+      <section class="flex flex-col items-center justify-center gap-5">
+        <h1
+          class="font-serif text-3xl font-bold leading-normal text-center md:text-4xl lg:text-7xl"
+        >
+          Fresh and healthy <br />
+          food right to your table
+        </h1>
+        <p class="font-semibold text-center text-gray-800">
+          Order healthy and delicious dishes at any time, <br />and we'll make
+          sure it is safely delivered to your home
+        </p>
+        <div
+          class="flex flex-col items-center justify-center lg:mt-10 md:flex-row gap-9"
+        >
+          <button
+            class="px-4 py-2 text-lg font-bold text-white transition-colors bg-green-600 rounded-full hover:bg-green-800"
+          >
+            Order Now
+          </button>
+          <button
+            class="px-4 py-2 text-lg font-bold text-black transition-colors border rounded-full hover:border-black hover:bg-slate-100"
+          >
+            See the menu
+          </button>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+      <!-- Begin About Section -->
+      <section class="px-10 mt-6 lg:mt-32">
+        <h1
+          class="text-3xl font-bold text-center uppercase group animate-bounce"
+        >
+          how does
+          <span
+            class="group-hover:underline group-hover:underline-offset-8 transition-all text-[#C3F392]"
+            >prep</span
+          >
+          work
+        </h1>
+        <div class="flex flex-col items-center justify-center lg:flex-row">
+          <div class="w-full rounded-md bg-[#C3F392]">
+            <ul
+              class="px-4 py-16 group *:text-xl *:font-bold flex gap-10 flex-col items-start"
+            >
+              <li
+                class="group-hover:opacity-60 hover:translate-x-3 duration-700 hover:!opacity-100 transition-all"
+              >
+                <i class="text-black fa-solid fa-arrow-right"></i>
+                Calculate calories and portion size.
+              </li>
+              <li
+                class="group-hover:opacity-60 hover:translate-x-3 duration-700 hover:!opacity-100 transition-all"
+              >
+                <i class="text-black fa-solid fa-arrow-right"></i>
+                Prepare dish from fresh organic and farm products.
+              </li>
+              <li
+                class="group-hover:opacity-60 hover:translate-x-3 duration-700 hover:!opacity-100 transition-all"
+              >
+                <i class="text-black fa-solid fa-arrow-right"></i>
+                Free delivery to your door at any time.
+              </li>
+              <li
+                class="group-hover:opacity-60 hover:translate-x-3 duration-700 hover:!opacity-100 transition-all"
+              >
+                <i class="text-black fa-solid fa-arrow-right"></i>
+                Food doesn't require cooking, only reheat if needed.
+              </li>
+            </ul>
+          </div>
+          <div class="w-full">
+            <img src="/images/cooking-bro.png" alt="hero cooking image" />
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+      <!-- Begin Menu Section -->
+      <section class="px-10 mt-6 lg:mt-24">
+        <h1 class="text-3xl font-bold text-center uppercase">our menu</h1>
+        <div
+          class="flex w-full flex-col lg:flex-row items-center justify-center gap-6"
+        >
+          <div class="w-full">Breakfast</div>
+          <div class="w-full">Lunch</div>
+          <div class="w-full">Dinner</div>
+        </div>
+      </section>
+      <!-- End Meun Section -->
+    </main>
+    <!-- End Main  -->
+    <!-- Begin Footer -->
+    <footer></footer>
+    <!-- End Footer -->
+  </body>
+</html>
