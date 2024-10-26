@@ -13,7 +13,6 @@ const checkWorkingHours = (req, res, next) => {
   const now = new Date();
   const day = now.getDay();
   const hour = now.getHours();
-  console.log(day, hour);
   if (WORKING_DAYS[day] && hour >= WORK_START_HOUR && hour < WORK_END_HOUR) {
     return next();
   }
