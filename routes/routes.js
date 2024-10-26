@@ -1,10 +1,9 @@
 const express = require("express");
-const { checkWorkingHours } = require("./middlewares.js");
+const { checkWorkingHours } = require("../middlewares/middlewares.js");
 const router = express.Router();
 
 // Check Working Timeline Middleware
 router.use(checkWorkingHours);
-
 // Home route
 router.get("/", (req, res) => {
   res.render("index");
