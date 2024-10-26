@@ -1,9 +1,11 @@
 const WORKING_DAYS = {
+  0: false, //Sunday
   1: true, // Monday
   2: true, // Tuesday
   3: true, // Wednesday
   4: true, // Thursday
   5: true, // Friday
+  6: false, // Saturday
 };
 
 const WORK_START_HOUR = 9;
